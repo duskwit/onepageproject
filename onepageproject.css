@@ -1,0 +1,373 @@
+/*general*/
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato';
+	overflow-x: hidden; 
+}
+.container-centering {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; 
+}
+.container-centering-half {
+	min-height: 50vh;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; 
+}
+.section {
+	padding: 100px 0;
+	min-height: 100vh;
+}
+.half-section {
+	padding: 100px 0;
+	min-height: 50vh;
+}
+.section-title {
+	padding: 0;
+	margin: 0;
+	font-size: 3.8em;
+	letter-spacing: -4px;
+	font-weight: 600;
+}
+.bg-grey {
+	background-color: #f9f9f9;
+}
+button:hover {
+	-o-transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+a:hover {
+	-o-transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+/*navigation*/
+#myNavbar > ul > li > a {
+	color: white;
+	letter-spacing: 2px;
+	font-size: 0.9em;
+}
+#myNavbar > ul > li > a:hover {
+	background-color: #e91e63;
+	border-radius: 6px;
+}
+#myPage > div.wrapper > nav.affix-top {
+    padding: 15px 30px;
+    background-color: transparent;
+    color: #282828;
+
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+}
+#myPage > div.wrapper > nav.affix {
+    padding: 15px 30px;
+    top: 0;
+    width: 100%;
+    background-color: #282828;
+    border:none;
+    opacity: 0.9;
+
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+}
+#myPage > div.wrapper > nav {
+	padding: 15px 30px;
+    top: 0;
+    width: 100%;
+    background-color: #282828;
+    border:none;
+    opacity: 0.9;
+
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+}
+#myNavbar > ul > li.active > a {
+	background-color: #e91e63;
+	border-radius: 6px;
+}
+#myPage > div.wrapper > nav > div > div.navbar-header > button > i {
+	background-color: transparent;
+	color: white;
+	padding: 0 4px;
+	font-size: 1.5em;
+}
+
+/*welcomepage*/
+.landing-page {
+    background: rgba(0, 0, 0, 0) url("img/desk.jpg") no-repeat fixed 0 0 / cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.landing-text {
+	display: block;
+}
+.landing-text h1 {
+	padding: 0 0 40px;
+	margin: 0;
+	color: white;
+	font-size: 4em;
+	font-weight: 600;
+}
+.landing-text h2 {
+	color: #e91e63;
+	font-size: 2em;
+	font-weight: 300;
+	letter-spacing: 8px;
+}
+.landing-page button {
+	margin: auto;
+	background-color: #e91e63;
+	padding: 10px 30px;
+	font-size: 1.4em;
+	border-radius: 50px;
+	font-weight: 600;
+	letter-spacing: 2;
+}
+.landing-page button:hover,
+.landing-page button:visited,
+.landing-page button:active {
+	background-color: #e73471;
+}
+
+/*about section*/
+.about-section .section-title {
+	padding-bottom: 20px;
+}
+.about-section p {
+	font-weight: 100;
+	font-size: 1.1em;
+	line-height: 33px;
+}
+.about-section img {
+	width: 90%;
+}
+.about-section button {
+	background-color: transparent;
+	color: #282828;
+	border-color: #282828;
+	border-radius: 20px;
+	padding: 10px 45px;
+	font-weight: 600;
+}
+.about-section button:hover,
+.about-section button:active,
+.about-section button:visited {
+	background-color: #e73471;
+	border-color: #e73471;
+	color: white;
+}
+
+/*ventajas*/
+.ventajas-section .section-title {
+	color: #e91e63;
+}
+.section-text {
+	padding: 20px 0; 
+	line-height: 2;
+}
+.ventajas-section .col-md-4 {
+	padding: 5px 70px;
+}
+.ventajas-section h4 {
+	padding: 10px 0;
+}
+.ventajas-section .fa {
+	color: #282828;
+	font-size: 3.8em;
+}
+
+/*design*/
+.design-section {
+	background: rgba(0, 0, 0, 0) url("img/design.jpg") no-repeat fixed 0 0 / cover;
+}
+
+/*verejemplos*/
+.verejemplos-section .section-title {
+	color: #e91e63; 
+}
+.verejemplos-section .col-sm-6,
+.verejemplos-section .col-md-3 {
+	padding: 15px;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.hover-text {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #e91e63;
+  opacity: 0.8;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+.verejemplos-section .col-sm-6:hover .hover-text,
+.verejemplos-section .col-md-3:hover .hover-text {
+  bottom: 0;
+  height: 100%;
+  cursor: pointer;
+}
+.hover-text p {
+  letter-spacing: 3.5px;
+  font-size: 1.2em;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.hover-text p .type-text {
+	letter-spacing: 1px;
+}
+
+/*ready section*/
+.ready-section {
+	color: white;
+	background: rgba(0, 0, 0, 0) url("img/price.jpg") no-repeat fixed 0 0 / cover;
+}
+.ready-section .included-text {
+	font-size: 1.2em;
+	white-space: nowrap;
+}
+.ready-section .included-text-title p {
+	font-size: 1.3em;
+	padding: 0 30px;
+	font-weight: 900;
+}
+.ready-section .included-text i {
+	display: inline-block;
+	padding: 5px 15px;
+}
+.ready-section .included-text p {
+	display: inline-block;
+}
+.ready-section #price {
+	white-space: nowrap;
+}
+.ready-section #price i {
+	display: inline-block;
+	font-size: 2.4em;
+	padding: 0 5px;
+}
+.ready-section #price p {
+	display: inline-block;
+	font-size: 4.3em;
+	padding-left: 35px;
+	font-weight: 900;
+}
+.ready-section button {
+	background-color: transparent;
+	color: white;
+	border-color: white;
+	border-radius: 20px;
+	padding: 10px 20px;
+	font-weight: 600;
+}
+.ready-section button:hover,
+.ready-section button:active,
+.ready-section button:visited {
+	background-color: #e73471;
+	border-color: #e73471;
+	color: white;
+}
+
+/*contact section*/
+#contact .section {
+	padding: 150px 0 100px;
+}
+.contact-section .section-title {
+	color: #e91e63;
+}
+.form-control {
+	margin: 5px 0;
+}
+#map {
+    height: 520px;
+}
+.contact-section .form-group button {
+	background-color: transparent;
+	border-radius: 20px;
+	padding: 10px 50px;
+	font-weight: 600;
+}
+.contact-section .form-group button:hover,
+.contact-section .form-group button:active,
+.contact-section .form-group button:visited {
+	background-color: #e73471;
+	border-color: #e73471;
+	color: white;
+}
+
+/*infolegal*/
+button.btn.btn-info.btn-infolegal {
+    width: 100%;
+    border-radius: 0;
+    background-color: #f1f1f1;
+    border-color: #f1f1f1;
+    color: #7b7b7b;
+    font-weight: 300;
+}
+button.btn.btn-info.btn-infolegal:hover,
+button.btn.btn-info.btn-infolegal:active,
+button.btn.btn-info.btn-infolegal:focus {
+    background-color: #f9f9f9;
+    border-color: #f9f9f9;
+    color: #7b7b7b;
+}
+.infolegal-main-title {
+    text-align: center;
+    padding: 8px 0;
+    margin:0;
+}
+.infolegal-title {
+    font-weight: 900;
+    white-space: normal;
+}
+.infolegal-more {
+    background-color: #f9f9f9;
+    padding: 100px 180px;
+}
+
+/*footer*/
+footer {
+	color: white;
+	background-color: #e91e63; 
+	padding: 0;
+	margin: 0;
+}
+footer img {
+	padding: 30px 0 10px;
+	display: block;
+	width: 120px;
+	margin: auto;
+}
+footer .fa {
+	color: white;
+	font-size: 2.6em;
+	padding: 10px;
+}
+footer .fa:hover {
+	color: lightgrey;
+	cursor: pointer;
+}
+footer p {
+	margin: 0;
+	padding-bottom: 20px;
+}

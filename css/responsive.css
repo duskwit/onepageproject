@@ -1,0 +1,79 @@
+@media (max-width: 1200px) {
+	/*teofrecemos*/
+	#about > div > div > div > div > p {
+		 text-align: justify;
+	}
+	.about-section button {
+		margin: 30px 0 50px;
+	}
+	.about-section img {
+		width: 100%;
+	}
+
+	/*ventajas*/
+	.ventajas-section .col-md-4 {
+	padding: 5px 30px;
+	}
+
+	/*contact*/
+	.contact-section .col-xs-2 {
+		padding: 0;
+	}
+	.contact-section .col-xs-10 {
+		padding: 0;
+	}
+}
+
+/* Tablet desktop :768px. SMALL*/
+@media (max-width: 992px) {
+	/*navigation*/
+	#myNavbar > ul > li > a {
+		color: white;
+		letter-spacing: 1px;
+		font-size: 0.75em;
+	}
+	#myNavbar > ul > li > a {
+		padding: 15px 10px;
+	}
+	
+	/*ventajas*/
+	.ventajas-section .col-md-4 {
+		padding: 10px 150px;
+	}
+
+	/*contact*/
+	#map {
+		margin: 30px 0;
+	}
+
+	/*infolegal*/
+	.infolegal-section {
+		word-break: break-all;
+	}
+	.infolegal-more {
+	    padding: 100px 90px;
+	    text-align: justify;
+	}
+
+}
+
+/* MOBILE max 767px XS*/
+@media (max-width: 768px) {
+	/*welcomepage*/
+	.landing-text h1 {
+		font-size: 3em;
+		padding: 20px 0 40px;
+	}
+	.landing-text h2 {
+		font-size: 1.6em;
+	}
+
+	/*ventajas*/
+	.ventajas-section .col-md-4 {
+		padding: 10px 80px;
+	}
+
+	.infolegal-more {
+	    padding: 100px 50px;
+	}
+}
