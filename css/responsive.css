@@ -79,6 +79,9 @@
 }
 
 @media (max-width: 320px) {
+	.landing-page {
+	    background: rgba(0, 0, 0, 0) url("img/desk-mobile.jpg") no-repeat fixed 0 0 / cover;
+	}
 	h3.section-title {
 		font-size: 2.6em;
 	}
