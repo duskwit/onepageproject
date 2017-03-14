@@ -24,7 +24,7 @@
 	}
 }
 
-/* Tablet desktop :768px. SMALL*/
+/* Tablet desktop :992px. SMALL*/
 @media (max-width: 992px) {
 	/*navigation*/
 	#myNavbar > ul > li > a {
@@ -80,7 +80,7 @@
 
 @media (max-width: 320px) {
 	h3.section-title {
-		font-size: 3em;
+		font-size: 2.6em;
 	}
 	#contact > div {
 		padding-bottom: 10px;
