@@ -77,3 +77,12 @@
 	    padding: 100px 50px;
 	}
 }
+
+@media (max-width: 320px) {
+	h3.section-title {
+		font-size: 3em;
+	}
+	#contact > div {
+		padding-bottom: 10px;
+	}
+}

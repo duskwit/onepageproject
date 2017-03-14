@@ -1,9 +1,0 @@
-/* Normal desktop :992px. MEDIUM*/
-@media (min-width: 992px) and (max-width: 1169px) {
-	.about-section .landing-text p {
-		text-align: justify;
-	}
-	.about-section button {
-		padding: 30px 0;
-	}
-}
